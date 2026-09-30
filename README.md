@@ -63,8 +63,9 @@ Visualización
     ↓
 Interpretación de resultados
 
-### ETL y preparación de datos
 ```
+
+### ETL y preparación de datos
 
 1. Extracción y organización
 
@@ -104,6 +105,7 @@ palabras frecuentes;
 hashtags;
 pares de palabras;
 conceptos asociados al contenido de las publicaciones.
+
 5. Clasificación temática
 
 Las publicaciones fueron agrupadas en categorías temáticas para analizar diferencias en el comportamiento de las interacciones.
