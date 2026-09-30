@@ -40,26 +40,91 @@ A partir de estas variables se generaron nuevas características para el anális
 
 ## 🔄 Proceso de trabajo
 
-El proyecto siguió distintas etapas del proceso de Ciencia de Datos:
+El proyecto se desarrolló siguiendo un flujo de trabajo de análisis de datos:
 
-**Extracción → ETL → Limpieza → Transformación → EDA → Análisis → Visualización → Interpretación**
+```text
+Extracción
+    ↓
+Organización y almacenamiento
+    ↓
+ETL
+    ↓
+Limpieza y normalización
+    ↓
+Análisis exploratorio (EDA)
+    ↓
+Procesamiento de texto
+    ↓
+Clasificación temática
+    ↓
+Análisis de interacciones
+    ↓
+Visualización
+    ↓
+Interpretación de resultados
 
 ### ETL y preparación de datos
 
-Se realizaron tareas de:
+1. Extracción y organización
 
-- limpieza de datos;
-- tratamiento de valores faltantes;
-- normalización de textos;
-- transformación de fechas;
-- extracción de día y hora;
-- cálculo de longitud de captions;
-- identificación y conteo de hashtags;
-- procesamiento de palabras;
-- eliminación de palabras vacías (stopwords);
-- clasificación temática de las publicaciones.
+Se recopilaron datos correspondientes a publicaciones públicas de Instagram y se organizaron inicialmente en una planilla de Excel.
 
----
+2. ETL y limpieza
+
+Se realizó un proceso de extracción, transformación y preparación de los datos para su posterior análisis.
+
+Entre las tareas realizadas se incluyeron:
+
+revisión de tipos de datos;
+control de duplicados;
+tratamiento de valores faltantes;
+normalización de fechas;
+extracción de día y hora;
+limpieza de textos;
+identificación de hashtags.
+
+3. Análisis exploratorio
+
+Se analizaron medidas estadísticas descriptivas como:
+
+media;
+mediana;
+cuartiles;
+desviación estándar;
+valores mínimos y máximos.
+
+También se estudiaron valores extremos y la distribución de las interacciones.
+
+4. Procesamiento de texto
+
+Se realizó un procesamiento básico de los captions para identificar:
+
+palabras frecuentes;
+hashtags;
+pares de palabras;
+conceptos asociados al contenido de las publicaciones.
+5. Clasificación temática
+
+Las publicaciones fueron agrupadas en categorías temáticas para analizar diferencias en el comportamiento de las interacciones.
+
+6. Análisis de interacción
+
+Se construyó la variable:
+
+interacciones = likes + comentarios
+
+A partir de ella se analizaron:
+
+distribución de interacciones;
+publicaciones con mayor rendimiento;
+concentración de interacciones;
+comportamiento por temática;
+comportamiento según formato;
+comportamiento según día y horario.
+
+7. Visualización
+
+Los resultados fueron representados mediante gráficos desarrollados con Matplotlib, priorizando visualizaciones que permitieran comunicar los principales hallazgos de manera clara.
 
 ## 🐍 Herramientas utilizadas
 
