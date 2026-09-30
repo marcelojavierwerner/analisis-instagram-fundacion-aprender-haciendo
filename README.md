@@ -64,6 +64,7 @@ Visualización
 Interpretación de resultados
 
 ### ETL y preparación de datos
+```
 
 1. Extracción y organización
 
